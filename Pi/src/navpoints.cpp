@@ -56,9 +56,11 @@ void navPoints::withinRange(GPSPoint& current){
 		if(testing)
 				cout<<"Within range - waypoint removed" <<endl;
 	}
-	if(testing)
+	else
+	{
+		if(testing)
 		cout<<"Not in range - keep going" << endl;
-
+	}
 }
 
 void navPoints::passedOutofRange(GPSPoint& current){

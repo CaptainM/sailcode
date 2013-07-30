@@ -32,6 +32,7 @@ int main(int argc, char* argv[]) {
 	cout << "Not in range: " << endl;
 	test->withinRange(third);
 	cout << "Should be passed" <<endl;
+	test->passedOutofRange(third);
 
 	cout << "second waypoint should not be removed - waypoints should be 1: " <<endl;
 	cout<< test->numWaypoints <<endl;
