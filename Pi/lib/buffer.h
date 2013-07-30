@@ -17,10 +17,10 @@ public:
 	T peek();
 	int peek(T* item);
 	T average();
+	T avg; //buffer average
 private:
 	T* buf;
 	int n;//Index
-	T avg; //buffer average
 };
 
 #endif
